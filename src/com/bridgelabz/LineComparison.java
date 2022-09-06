@@ -5,11 +5,11 @@ public class LineComparison
 	public static void main(String[] args) {
 		System.out.println("Welcome To Line Comparision Problem");
 		
-		// Line 1
+		
 		Line line1 = new Line(new Point(5.8, 4.2), new Point(1.9, 9.7));
 		System.out.println("First line point 1 is "+line1.point1.toString()+", point 2 is "+line1.point2.toString()+" and length is "+line1.length());
 	
-		// Line 2
+		
 		Line line2 = new Line(new Point(4.8, 6.7), new Point(1.2, 9.4));
 		System.out.println("Second line point 1 is "+line2.point1.toString()+", point 2 is "+line2.point2.toString()+" and length is "+line2.length());
 		
